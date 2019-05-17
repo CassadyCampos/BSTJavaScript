@@ -14,7 +14,7 @@ class BinarySearchTree {
     constructor() {
         this.root  = null;
     
-    }e
+    }
 
     insert(data)  { 
         // Creating a node and initailising  
@@ -23,15 +23,7 @@ class BinarySearchTree {
         
         this.root === null? this.root = newNode : this.insertNode(this.root, newNode);
 
-        // // root is null then node will 
-        // // be added to the tree and made root. 
-        // if(this.root === null) 
-        //     this.root = newNode; 
-        // else
-      
-        //     // find the correct position in the  
-        //     // tree and add the node 
-        //     this.insertNode(this.root, newNode); 
+
     } 
     
     getRootNode() {
