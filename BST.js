@@ -14,7 +14,7 @@ class BinarySearchTree {
     constructor() {
         this.root  = null;
     
-    }
+    }e
 
     insert(data)  { 
         // Creating a node and initailising  
